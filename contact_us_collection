@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "b9f5a740-011d-42e8-a480-b753040bea41",
+		"name": "New Collection",
+		"description": "React Form API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48834439",
+		"_collection_link": "https://chitranshmishra085-5083703.postman.co/workspace/Chitransh-Mishra's-Workspace~559cebef-f602-4cfb-81b1-ffd6acd3d4b7/collection/48834439-b9f5a740-011d-42e8-a480-b753040bea41?action=share&source=collection_link&creator=48834439"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Contact Us - POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Chitransh Mishra\",\"email\":\"chitransh@example.com\",\"phone\":\"9876543210\",\"message\":\"Testing the contact form API\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl -X POST \"https://vernanbackend.ezlab.in/api/contact-us/\" -H \"Content-Type: application/json\" -d '{\"name\":\"Chitransh Mishra\",\"email\":\"chitransh@example.com\",\"phone\":\"9876543210\",\"message\":\"Testing the contact form API\"}'"
+			},
+			"response": []
+		}
+	]
+}
